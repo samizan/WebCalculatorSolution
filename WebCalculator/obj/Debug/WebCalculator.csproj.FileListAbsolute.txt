@@ -1,0 +1,10 @@
+c:\users\samer\documents\visual studio 2012\Projects\WebCalculatorSolution\WebCalculator\bin\WebCalculator.dll
+c:\users\samer\documents\visual studio 2012\Projects\WebCalculatorSolution\WebCalculator\bin\WebCalculator.pdb
+c:\users\samer\documents\visual studio 2012\Projects\WebCalculatorSolution\WebCalculator\obj\Debug\WebCalculator.csprojResolveAssemblyReference.cache
+c:\users\samer\documents\visual studio 2012\Projects\WebCalculatorSolution\WebCalculator\obj\Debug\WebCalculator.dll
+c:\users\samer\documents\visual studio 2012\Projects\WebCalculatorSolution\WebCalculator\obj\Debug\WebCalculator.pdb
+C:\Users\Samer\code\ContosoWeb\WebCalculatorSolution\WebCalculator\bin\WebCalculator.dll
+C:\Users\Samer\code\ContosoWeb\WebCalculatorSolution\WebCalculator\bin\WebCalculator.pdb
+C:\Users\Samer\code\ContosoWeb\WebCalculatorSolution\WebCalculator\obj\Debug\WebCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Samer\code\ContosoWeb\WebCalculatorSolution\WebCalculator\obj\Debug\WebCalculator.dll
+C:\Users\Samer\code\ContosoWeb\WebCalculatorSolution\WebCalculator\obj\Debug\WebCalculator.pdb

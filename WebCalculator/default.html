@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Web Calculator</title>
+    <link href="Content/default.css" rel="stylesheet" />
+    <script type="text/javascript" src="Scripts/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="Scripts/CalculatorLibrary.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <hgroup id="headerText">
+                <h1>My Calculator</h1>
+                <h2>A simple web calculator using JavaScript</h2>
+            </hgroup>
+        </header>
+        <nav>
+            <a href="CalculatorTests.html">Unit Tests</a>
+        </nav>
+        <div role="main">
+            <div id="calculator">
+                <table>
+                    <tr>
+                        <td colspan="4">
+                            <input id="txtResult" type="text" readonly="readonly" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <input id="txtInput" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button id="btnClearEntry">CE</button></td>
+                        <td><button id="btnClear">C</button></td>
+                        <td><button id="btnDivide">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="btnNumber7">7</button></td>
+                        <td><button id="btnNumber8">8</button></td>
+                        <td><button id="btnNumber9">9</button></td>
+                        <td><button id="btnMultiply">*</button></td>
+                     </tr>
+                    <tr>
+                       <td><button id="btnNumber4">4</button></td>
+                       <td><button id="btnNumber5">5</button></td>
+                       <td><button id="btnNumber6">6</button></td>
+                       <td><button id="btnMinus">-</button></td>
+                    </tr>
+                    <tr>
+                       <td><button id="btnNumber1">1</button></td>
+                       <td><button id="btnNumber2">2</button></td>
+                       <td><button id="btnNumber3">3</button></td>
+                       <td><button id="btnPlus">+</button></td>
+                       <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button id="btnNumber0">0</button></td>
+                        <td></td>
+                        <td><button id="btnEqual">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <aside>
+            <p><!--You can place Ads here --></p>
+        </aside>
+        <footer>
+            <p>
+                
+            </p>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            calculatorNamespace.initialize();
+        });
+    </script>
+</body>
+</html>
