@@ -16,8 +16,6 @@
         $('#btnClearEntry').on('click', calculator.clearEntry);
         $('#btnClear').on('click', calculator.clear);
         calculator.clear();
-
-
     }
 
     ns.Calculator = (function () {
@@ -32,13 +30,12 @@
             $('#txtResult').val('0');
         }
 
-         Calculator.prototype.numberClick = function () {
+        Calculator.prototype.numberClick = function () {
              $('#txtInput').val($('#txtInput').val() == '0' ?
                  $(this).text() : $('#txtInput').val() + $(this).text());
         }
 
-
-         Calculator.prototype.operatorClick = function (calledOperation) {
+        Calculator.prototype.operatorClick = function (calledOperation) {
              return function () {
 
                  if (operation != calledOperation && operation != "") {
