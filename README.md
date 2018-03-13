@@ -4,7 +4,7 @@ This is a simple web calculator using JavaScript, HTML, and CSS. JavaScript code
 
 There is also a Unit Test link for the calculator using QUnit.
 
-![web calculator](https://user-images.githubusercontent.com/7382719/29058966-88cec330-7c13-11e7-968f-149edb7eb097.png)
+![web calculator](https://user-images.githubusercontent.com/7382719/37337284-14aa9050-26b4-11e8-90d9-9169b59adb2f.png)
 
 ## ToDo
 
